@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>{{titulo}}</h1>
+  <app-formulario 
+  (resultadoSuma)="onResultado($event)"></app-formulario>
+  <app-resultado
+  [resultado]="resultadoPadre"
+  ></app-resultado>
+</div>
